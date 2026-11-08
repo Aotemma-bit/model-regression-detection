@@ -1,0 +1,24 @@
+{"id": "bill-001", "input": "I was charged twice for the same invoice this month.", "expected_category": "billing", "description": "Duplicate charge belongs in billing."}
+{"id": "bill-002", "input": "Can I get a refund for last month's subscription?", "expected_category": "billing", "description": "Refund request belongs in billing."}
+{"id": "bill-003", "input": "My card was declined but the receipt still shows the order as paid.", "expected_category": "billing", "description": "Payment and receipt mismatch belongs in billing."}
+{"id": "bill-004", "input": "Where can I download the invoice for order 4421?", "expected_category": "billing", "description": "Invoice retrieval belongs in billing."}
+{"id": "bill-005", "input": "Please update the credit card on file before the next renewal.", "expected_category": "billing", "description": "Payment method update belongs in billing."}
+{"id": "bill-006", "input": "Why is the sales tax on my bill higher than last quarter?", "expected_category": "billing", "description": "Tax question on a bill belongs in billing."}
+{"id": "tech-001", "input": "The app crashes as soon as I open the reports page.", "expected_category": "technical", "description": "Client crash belongs in technical."}
+{"id": "tech-002", "input": "The API returns HTTP 500 when I POST to the exports endpoint.", "expected_category": "technical", "description": "Server error belongs in technical."}
+{"id": "tech-003", "input": "Webhooks stopped arriving after we rotated the endpoint URL.", "expected_category": "technical", "description": "Integration delivery failure belongs in technical."}
+{"id": "tech-004", "input": "The dashboard spinner never finishes in Chrome.", "expected_category": "technical", "description": "UI hang belongs in technical."}
+{"id": "tech-005", "input": "The CSV export downloads an empty file every time.", "expected_category": "technical", "description": "Broken export belongs in technical."}
+{"id": "tech-006", "input": "The mobile client loses the network connection and retries forever.", "expected_category": "technical", "description": "Client retry loop belongs in technical."}
+{"id": "acct-001", "input": "I need to reset the password for my admin user.", "expected_category": "account", "description": "Password reset belongs in account."}
+{"id": "acct-002", "input": "Please add a teammate to our workspace.", "expected_category": "account", "description": "Membership change belongs in account."}
+{"id": "acct-003", "input": "How do I close my account and delete my personal data?", "expected_category": "account", "description": "Account closure belongs in account."}
+{"id": "acct-004", "input": "My email address changed and I can no longer sign in.", "expected_category": "account", "description": "Sign-in identity change belongs in account."}
+{"id": "acct-005", "input": "Can you enable single sign-on for our organization?", "expected_category": "account", "description": "Organization access setting belongs in account."}
+{"id": "acct-006", "input": "I lost the owner role after we transferred the workspace.", "expected_category": "account", "description": "Role loss belongs in account."}
+{"id": "gen-001", "input": "What are your support hours?", "expected_category": "general", "description": "Support hours are a general question."}
+{"id": "gen-002", "input": "Do you publish a status page for outages?", "expected_category": "general", "description": "Status page question is general."}
+{"id": "gen-003", "input": "Where is the getting started guide?", "expected_category": "general", "description": "Documentation pointer is general."}
+{"id": "gen-004", "input": "Can I talk to sales about a product demo?", "expected_category": "general", "description": "Sales demo request is general."}
+{"id": "gen-005", "input": "Which countries do you operate in?", "expected_category": "general", "description": "Company coverage question is general."}
+{"id": "gen-006", "input": "Thanks, that solved it. Have a good day.", "expected_category": "general", "description": "Courtesy follow-up is general."}
